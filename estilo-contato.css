@@ -1,0 +1,52 @@
+
+			.HStack {
+        		display: flex; /* Define o display como flex para criar um layout flexível */
+        		flex-direction: row; /* Define a direção como linha para alinhar os elementos horizontalmente */
+			}
+
+			.VStack {
+				display: initial;
+				flex-direction: column;
+			}
+
+			#mensagem {
+				width: 350px;
+				height: 125px;
+			}
+
+			#icone {
+				width: 48px;
+				height: 32px;
+			}
+
+
+			header {
+			    display: flex; 
+      	  		align-items: center; 
+		        justify-content: space-between; 
+
+				border: 2px solid black;
+				margin-bottom: 20px;
+				padding: 10px;			
+			}
+
+			#opcoes {
+				font-size: large;
+			}
+
+			.opcao {
+				margin-right: 20px;
+			}
+
+			.opcao-direita {
+				margin-right: 90px;
+			}
+
+			#formulario {
+  				align-items: center;
+  				justify-content: center;
+			}
+
+			.elementoForm {
+				margin-left: auto;
+			}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		.HStack {
+			display: flex;
+		}
+
+		.VStack {
+			display: initial;
+		}
+
+		.container {
+      		height: 100%;
+      		margin: 0;
+      		display: flex;
+      		justify-content: center;
+      		align-items: center;		
+      	}
+
+		header {
+			display: flex; 
+			justify-content: space-between;
+		}
+
+		.elemento-direita-header {
+			margin-right: 10px
+		}
+
+		.icone {
+			width: 48px;
+			height: 32px;
+		}
+	</style>
+	<link rel="stylesheet" href="estilo-contato.css">
+	<head>
+		<title>Contato</title>
+
+	</head>
+	<body>
+
+	<header class="HStack">
+		<img src="icone-futebas.png" class="icone">
+		<div id="opcoes">
+			<a href="home.html" class="opcao">Início</a>
+			<a href="galeria.html" class="opcao">Galeria</a>
+			<a href="contato.html" class="opcao">Contato</a>
+			<a href="blog.html" class="opcao-direita">Blog</a>
+		</div>
+	</header>
+		<hr>
+		
+		<h1>Fale conosco</h1>
+		
+		<div class="container">
+			<form id="formulario">
+				<div class="VStack">
+				<div class="HStack">
+					<div class="VStack" style="text-align: left; margin-right: 100px">
+						<p>Nome</p>
+						<input type="text" name="nome" placeholder="Renato">
+					</div>
+							
+					<div class="VStack" style="text-align: left">
+						<p>Sobrenome</p>
+						<input type="text" name="sobrenome" placeholder="Nascimento">
+					</div>
+				</div>
+
+				<div class="HStack">
+					<div class="VStack" style="text-align: left; margin-right: 100px">
+						<p>Email</p>
+						<input type="email" name="email" placeholder="renatonascimento@dominio.comm">
+					</div>
+							
+					<div class="VStack" style="text-align: left">
+						<p>Telefone</p>
+						<input type="tel" name="telefone" placeholder="(61) 92832-2429">
+					</div>
+				</div>
+						
+				<div style="text-align: left">
+					<p>Mensagem</p>
+					<textarea style="width: 450px; height: 250px">text</textarea>	
+				</div>
+
+				<input align="margin-right" type="submit" name="submeterForm">	
+			</form>
+		</div>
+	</body>
+
+
+</html>

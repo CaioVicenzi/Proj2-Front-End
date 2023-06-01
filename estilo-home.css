@@ -1,0 +1,63 @@
+			#icone {
+				width: 48;
+				height: 32;
+			}
+
+			#banner {
+				width: 772;
+				height: 260;
+				text-align: center;
+				margin-top: 20px;
+			}
+
+			#conteinerEsquerdo {
+				margin-right: 15px;
+			}
+
+			.imagemArtigo {
+				width: 345;
+				height: 145;
+			}
+
+			.conteiner {
+				border: 2px solid black;
+				padding:20px;
+				margin-top: 15px;
+				width: 350px;
+			}
+
+			.HStack {
+        		display: flex; /* Define o display como flex para criar um layout flexível */
+        		flex-direction: row; /* Define a direção como linha para alinhar os elementos horizontalmente */
+			}
+
+			header {
+			    display: flex; 
+      	  		align-items: center; 
+		        justify-content: space-between; 
+
+				border: 2px solid black;
+				margin-bottom: 20px;
+				padding: 10px;			
+			}
+
+			footer {
+				margin-bottom: 10px;
+			}
+
+
+			#iconeDiv {
+				float: left;
+			}
+
+			#opcoes {
+				font-size: large;
+			}
+
+			.opcao {
+				margin-right: 20px;
+			}
+
+			#ultima-opcao {
+				margin-right: 90px;
+			}

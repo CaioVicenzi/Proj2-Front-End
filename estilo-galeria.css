@@ -1,0 +1,56 @@
+			.imagem-galeria {
+				width: 192px;
+				height: 141;
+			}
+
+
+			.HStack {
+        		display: flex; /* Define o display como flex para criar um layout flexível */
+        		flex-direction: row; /* Define a direção como linha para alinhar os elementos horizontalmente */
+			}
+
+
+			.item-galeria {
+				border: 2px solid black;
+				padding-right: 25px;
+				padding-left: 25px;
+				padding-top: 15px;
+				margin: 5px;
+			}
+
+			.texto-galeria {
+				text-align: center;
+			}
+
+			#icone {
+				width: 48px;
+				height: 32px;
+			}
+
+			header{
+			    display: flex; 
+      	  		align-items: center; 
+        		justify-content: center; 
+
+		        justify-content: space-between; 
+
+				border: 2px solid black;
+				margin-bottom: 20px;
+				padding: 10px;
+			}
+
+			#iconeDiv {
+				float: left;
+			}
+
+			#opcoes {
+				font-size: large;
+			}
+
+			.opcao {
+				margin-right: 20px;
+			}
+
+			#ultima-opcao {
+				margin-right: 90px;
+			}
